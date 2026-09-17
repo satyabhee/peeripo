@@ -34,9 +34,6 @@ into a fake stock price per friend.
 
 ## Known tradeoffs (read before extending)
 
-- Life360 has no public API. `life360_poller.py` uses an unofficial client
-  authenticated as the admin (not each friend), which avoids needing friends'
-  credentials but is still against Life360's ToS and can break without notice.
 - Canvas and Spotify integrations use official, sanctioned APIs with per-user
   tokens each friend generates and can revoke themselves — no scraping.
 - Aura scoring intentionally never automates access to Instagram. It only reads
