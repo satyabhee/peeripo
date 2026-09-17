@@ -15,9 +15,9 @@ from app.models import OptIn, OptInCategory, Place, User
 
 FRIENDS = [
     # name, is_admin, life360_member_id (fill in later via list_life360_members.py)
-    {"name": "You", "is_admin": True, "life360_member_id": None},
-    {"name": "Friend A", "is_admin": False, "life360_member_id": None},
-    {"name": "Friend B", "is_admin": False, "life360_member_id": None},
+    {"name": "Satya", "is_admin": True, "life360_member_id": None},
+    {"name": "Murari", "is_admin": False, "life360_member_id": None},
+    {"name": "Vishakh", "is_admin": False, "life360_member_id": None},
 ]
 
 PLACES = [
